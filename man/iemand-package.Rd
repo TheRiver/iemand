@@ -4,12 +4,14 @@
 \name{iemand-package}
 \alias{iemand}
 \alias{iemand-package}
-\title{iemand: What the Package Does (One Line, Title Case)}
+\title{Create random human data}
 \description{
-What the package does (one paragraph).
+Create data. Nice data. The best of data.
+}
+\details{
+This is more detail. The best detail. Can't get enough detail.
 }
 \author{
-\strong{Maintainer}: Constance Neeser \email{constance.neeser@brandseye.com}
-
+Constance Neeser
 }
 \keyword{internal}

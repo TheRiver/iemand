@@ -13,3 +13,4 @@ Suggests:
 Imports: 
     praise,
     magrittr
+Depends: R (>= 2.10)

@@ -1,3 +1,5 @@
+[![Travis build status](https://travis-ci.org/TheRiver/iemand.svg?branch=master)](https://travis-ci.org/TheRiver/iemand)
+
 # iemand
 
 The goal of iemand is to have fun.

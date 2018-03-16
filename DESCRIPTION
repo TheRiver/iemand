@@ -9,7 +9,8 @@ LazyData: true
 ByteCompile: true
 RoxygenNote: 6.0.1
 Suggests: 
-    testthat
+    testthat,
+    covr
 Imports: 
     praise,
     magrittr

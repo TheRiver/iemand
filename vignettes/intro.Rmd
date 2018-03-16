@@ -1,0 +1,28 @@
+---
+title: "Introduction to Iemand"
+author: "Constance Neeser"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to Iemand}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Let me show you how to create a fake person. We will give this person a name, an age, and praise them.
+
+```{r}
+library("iemand")
+age <- create_age()
+name <- give_name(gender = "female")
+praise_nicely(name = name)
+
+```
+
